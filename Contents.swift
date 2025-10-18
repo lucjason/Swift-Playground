@@ -15,3 +15,5 @@ let width = 44
 let widthDescription = label + String(width)
 
 print(widthDescription)
+
+print("The width is: \(width)")
