@@ -42,5 +42,6 @@ let second_ingredient = if first_ingredient == "jelly" {
     "jelly"
 }
 
-let optionalString: String? = "Hello"
-
+let optionalString: String? = nil  // "Hello"
+let defaultString = "Hi"
+let greeting2 = "\(optionalString ?? defaultString) there!"
