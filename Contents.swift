@@ -34,3 +34,10 @@ for item in list {
 var empty_dict: [String: Int] = [:]
 empty_dict["a"] = 1
 print(empty_dict)
+
+let first_ingredient = "jelly"
+let second_ingredient = if first_ingredient == "jelly" {
+    "peanut butter"
+} else {
+    "jelly"
+}
