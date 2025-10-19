@@ -24,3 +24,9 @@ print(dict)
 for (key, value) in dict {
     print("\(key): \(value)")
 }
+
+var list = [1, 2, 3]
+list.append(4)
+for item in list {
+    print(item)
+}
