@@ -30,3 +30,7 @@ list.append(4)
 for item in list {
     print(item)
 }
+
+var empty_dict: [String: Int] = [:]
+empty_dict["a"] = 1
+print(empty_dict)
