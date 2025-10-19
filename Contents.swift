@@ -17,3 +17,10 @@ let widthDescription = label + String(width)
 print(widthDescription)
 
 print("The width is: \(width)")
+
+var dict = ["a": 1, "b": 2, "c": 3]
+dict["d"] = 4
+print(dict)
+for (key, value) in dict {
+    print("\(key): \(value)")
+}
