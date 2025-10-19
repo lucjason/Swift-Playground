@@ -84,3 +84,21 @@ func greet(name: String, _ extra: String) -> String {
     return "Hello \(name) \(extra)"
 }
 greet(name: "Jason", ":)")
+
+func recipe(_ name: String) -> (ingredients: [String], preparation: String) {
+    var ingredients: [String] = []
+    var preparation: String = ""
+    
+    switch name {
+    case "Pizza":
+        ingredients = ["flour", "cheese", "pepperoni"]
+        preparation = "Bake for 20 minutes."
+    default:
+        break
+    }
+    return (ingredients, preparation)
+}
+let pizzaRecipe = recipe("Pizza")
+print(pizzaRecipe.0)
+print(pizzaRecipe.preparation)
+
