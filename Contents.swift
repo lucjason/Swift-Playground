@@ -41,3 +41,6 @@ let second_ingredient = if first_ingredient == "jelly" {
 } else {
     "jelly"
 }
+
+let optionalString: String? = "Hello"
+
