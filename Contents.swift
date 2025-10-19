@@ -79,3 +79,8 @@ for i in 1...5 {
 for i in 1..<5 {
     print(i)
 }
+
+func greet(name: String, extra: String) -> String {
+    return "Hello \(name) \(extra)"
+}
+greet(name: "Jason", extra: ":)")
