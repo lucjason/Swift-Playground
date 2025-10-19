@@ -45,3 +45,17 @@ let second_ingredient = if first_ingredient == "jelly" {
 let optionalString: String? = nil  // "Hello"
 let defaultString = "Hi"
 let greeting2 = "\(optionalString ?? defaultString) there!"
+
+let item = "iPod"
+switch item {
+case "iPhone":
+    print("Apple")
+case "iPod":
+    print("Apple")
+case "Macbook":
+    print("Apple")
+case "Galaxy S25":
+    print("Samsung")
+default:
+    print("Unknown")
+}
