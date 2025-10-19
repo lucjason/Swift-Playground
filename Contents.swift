@@ -71,3 +71,11 @@ repeat {
     n += 1
     print(n)
 } while n <= 0
+
+for i in 1...5 {
+    print(i)
+}
+
+for i in 1..<5 {
+    print(i)
+}
