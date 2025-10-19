@@ -59,3 +59,15 @@ case "Galaxy S25":
 default:
     print("Unknown")
 }
+
+var n = 1
+while n <= 0 {
+    n += 1
+    print(n)
+}
+
+n = 1
+repeat {
+    n += 1
+    print(n)
+} while n <= 0
